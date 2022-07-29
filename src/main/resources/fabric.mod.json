@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "chattrospect",
+  "version": "${version}",
+  "name": "Chattrospect",
+  "description": "Shows Details of ChatComponents",
+  "authors": [
+    "Chaoscaot"
+  ],
+  "contact": {},
+  "license": "AGPL-3.0",
+  "environment": "client",
+  "entrypoints": {
+  },
+  "mixins": [
+    "chattrospect.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*"
+  }
+}
